@@ -1,0 +1,31 @@
+{
+  "name": "creativeproject-creative-project_464460_464227",
+  "version": "1.0.0",
+  "description": "Quiz Website",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Clay Mudter",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "firebase": "^7.5.0",
+    "jquery": "^3.4.1",
+    "jquery-modal": "^0.9.2",
+    "multer": "^1.4.2",
+    "nan": "^2.14.0",
+    "node-pre-gyp": "^0.14.0",
+    "react-with-firebase-auth": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
